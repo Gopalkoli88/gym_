@@ -22,7 +22,7 @@ Partial Class MasterPage
         TextBox1.Text = ""
         TextBox2.Text = ""
         TextBox3.Text = ""
-    End Sub
+     End Sub
 
     Protected Sub GridView1_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles GridView1.SelectedIndexChanged
         display()
